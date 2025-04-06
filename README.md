@@ -7,7 +7,7 @@ This project classifies brain tumors using MRI images and two machine learning a
 ## 📁 Dataset
 
 - **Source**: [Kaggle - Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
-- **Classes**: 
+- **Classes**:
   - Glioma Tumor
   - Meningioma Tumor
   - Pituitary Tumor
@@ -17,15 +17,15 @@ This project classifies brain tumors using MRI images and two machine learning a
 
 ## ⚙️ Workflow
 
-1. **Preprocessing**:  
-   - Resize images to `244x244` using OpenCV  
+1. **Preprocessing**:
+   - Resize images to `256x256` using OpenCV
    - Flatten and label images
 
-2. **Model Training**:  
-   - k-NN: Tested with `k = 3, 5, 7, 9, 11`  
-   - Decision Tree: Used `max_depth` variations  
+2. **Model Training**:
+   - k-NN: Tested with `k = 3, 5, 7, 9, 11`
+   - Decision Tree: Used `max_depth` variations
 
-3. **Evaluation**:  
-   - Confusion matrix per class (one-vs-all)  
-   - Metrics: Accuracy, Precision, Recall, F1-Score  
+3. **Evaluation**:
+   - Confusion matrix per class (one-vs-all)
+   - Metrics: Accuracy, Precision, Recall, F1-Score
    - Visualized using Seaborn heatmaps
