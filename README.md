@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Classification with k-NN and Decision Tree
 
-This project classifies brain tumors using MRI images and the machine learning algorithm: **k-Nearest Neighbors (k-NN)**. It involves preprocessing image data, training models, and evaluating performance using accuracy, precision, recall, and F1-score.
+This project classifies brain tumors using MRI images and the machine learning algorithms: **K-Nearest Neighbors (K-NN), Decision Trees, Random Forest, and CNN**. It involves preprocessing image data, training models, and evaluating performance using accuracy, precision, recall, and F1-score.
 
 ---
 
